@@ -14,4 +14,7 @@ class Solution:
             return max(dfs(i - 1, False), dfs(i - 1, True) + prices[i])
         return dfs(n - 1, False)
 ```
+- [x] Done
+- [ ] This is a task list
+
 
